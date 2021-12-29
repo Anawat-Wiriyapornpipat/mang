@@ -1,0 +1,479 @@
+body {
+    margin: 0px;
+    font-family: Roboto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li {
+    margin: 0 auto;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    color: #003585;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.hdot1 {
+    max-height: 52px;
+    padding: 0;
+}
+
+.hdot2 {
+    max-height: 30px;
+    padding: 0px;
+}
+
+.flogo {
+    max-height: 60px;
+    display: flex;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.desc {
+    padding: 3px 1px;
+    margin: 0 auto;
+    max-width: 276px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.home{
+    display: flex;
+    flex: column;
+    margin: 0 auto;
+    max-width: 210px;
+    padding: 0;
+    justify-content: space-between
+}
+
+.home li  {
+    font-size: 20px;
+}
+
+.tag {
+    text-align: center;
+    margin: 27px auto 4px auto;
+    color: #828282;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+.bdot {
+    max-height: 20px;
+    display: none;
+}
+
+.prod {
+    max-height: 287px;
+}
+
+.project {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.work {
+    margin: 30px auto;
+}
+
+ul {
+    padding: 0;
+}
+
+.tags {
+    margin: 20px auto;
+}
+
+.mode {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+.mode li {
+    font-size: 20px;
+    text-align: left;
+    margin: 3px 10px;
+}
+@media (min-width:320px) {
+    body {
+        margin: 0px;
+        font-family: Roboto;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    li {
+        margin: 0 auto;
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black
+    }
+    
+    a:hover {
+        color: #003585;
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+    }
+    
+    .hdot1 {
+        max-height: 52px;
+        padding: 0;
+    }
+    
+    .hdot2 {
+        max-height: 30px;
+        padding: 0px;
+    }
+    
+    .flogo {
+        max-height: 60px;
+        display: flex;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .desc {
+        padding: 3px 1px;
+        margin: 0 auto;
+        max-width: 276px;
+        font-size: 20px;
+        text-align: left;
+        line-height: 25px;
+    }
+    
+    .home{
+        display: flex;
+        flex: column;
+        margin: 0 auto;
+        max-width: 210px;
+        padding: 0;
+        justify-content: space-between
+    }
+    
+    .home li  {
+        font-size: 20px;
+    }
+    
+    .tag {
+        text-align: center;
+        margin: 27px auto 4px auto;
+        color: #828282;
+        font-size: 20px;
+        font-style: normal;
+    }
+    
+    
+    .bdot {
+        max-height: 20px;
+        display: none;
+    }
+    
+    .prod {
+        max-height: 287px;
+    }
+    
+    .project {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .work {
+        margin: 30px auto;
+    }
+    
+    ul {
+        padding: 0;
+    }
+    
+    .tags {
+        margin: 20px auto;
+    }
+    
+    .mode {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 450px;
+    }
+    
+    .mode li {
+        font-size: 20px;
+        text-align: left;
+        margin: 3px 10px;
+    }
+    
+ }
+@media (min-width:899px) { 
+    body {
+        margin: 0px;
+        font-family: Roboto;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    li {
+        margin: 0 auto;
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black
+    }
+    
+    a:hover {
+        color: #003585;
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+    }
+    
+    .hdot1 {
+        max-height: 52px;
+        padding: 0;
+    }
+    
+    .hdot2 {
+        max-height: 30px;
+        padding: 0px;
+    }
+    
+    .flogo {
+        max-height: 60px;
+        display: flex;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .desc {
+        padding: 3px 1px;
+        margin: 0 auto;
+        max-width: 276px;
+        font-size: 20px;
+        text-align: left;
+        line-height: 25px;
+    }
+    
+    .home{
+        display: flex;
+        flex: column;
+        margin: 0 auto;
+        max-width: 210px;
+        padding: 0;
+        justify-content: space-between
+    }
+    
+    .home li  {
+        font-size: 20px;
+    }
+    
+    .tag {
+        text-align: center;
+        margin: 27px auto 4px auto;
+        color: #828282;
+        font-size: 20px;
+        font-style: normal;
+    }
+    
+    
+    .bdot {
+        max-height: 20px;
+        display: none;
+    }
+    
+    .prod {
+        max-height: 287px;
+    }
+    
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .work {
+        margin: 30px auto;
+    }
+    
+    .tags {
+        margin: 20px auto;
+    }
+    
+    .mode {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        max-width: 800px;
+    }
+    
+    .mode li {
+        font-size: 20px;
+        text-align: center;
+        margin: 3px 10px;
+    }
+ }
+
+@media (min-width:1260px) { 
+    body {
+        margin: 0px;
+        font-family: Roboto;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    li {
+        margin: 0 auto;
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black
+    }
+    
+    a:hover {
+        color: #003585;
+        text-decoration: underline;
+        text-decoration-thickness: 1.5px;
+    }
+    
+    .hdot1 {
+        max-height: 42px;
+        padding: 0;
+    }
+    
+    .hdot2 {
+        max-height: 25px;
+        padding: 0px;
+    }
+    
+    .container {
+        display: flex;
+        margin-left: 72px;
+        max-width: 1330px;
+    }
+    
+    .flogo {
+        max-height: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu {
+        margin-top: 130px;
+        align-items: left;
+    }
+    
+    .desc {
+        margin: 0;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .desc p {
+        margin: 0;
+    }
+
+    .home {
+        margin: 18px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home li {
+        font-size: 18px;
+        margin: 13px 0;
+    }
+
+    .tag {
+        margin: 15px 0 15px 0;
+        padding: 0;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    .tags {
+        margin: 0;
+        text-align: left;
+    }
+
+    .mode {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mode li {
+        text-align: left;
+        padding: 0;
+        font-size: 18px;
+        margin: 13px 0;
+    }
+
+    main {
+        margin: 0 40px;
+    }
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 8px 0 0 20px;
+    }
+
+    .prod {
+        max-height: 200px;
+        margin-top: 27px;
+        z-index: 1;
+    }
+
+    .bdot {
+        max-height: 80px;
+        position: absolute;
+        display: inline;
+        z-index: -2;
+        margin-top: 9px;
+        margin-left: -17px;
+    }
+
+    .work {
+        margin: 20px
+    }
+    
+}
