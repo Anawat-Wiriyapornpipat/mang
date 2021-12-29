@@ -195,7 +195,7 @@ ul {
     }
     
     .prod {
-        max-height: 287px;
+        max-width: 375px;
     }
     
     .project {
@@ -468,7 +468,7 @@ ul {
         position: absolute;
         display: inline;
         z-index: -2;
-        margin-top: 9px;
+        margin-top: 12px;
         margin-left: -17px;
     }
 
